@@ -103,7 +103,7 @@ header .profile-image:hover {
   transition: all 0.5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: rgb(0, 93, 129);
 }
 
 ul.skills {
@@ -122,6 +122,34 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: rgb(0, 93, 129);
+}
+
+.gallery__header {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery__title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+  background: #fff;
+}
+
+.gallery__img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 10px;
 }
 
 footer {
@@ -184,6 +212,10 @@ a.social:hover {
 
   header {
     min-height: 470px;
+  }
+
+  .gallery__header {
+    min-height: 100px;
   }
 
   .nav {
